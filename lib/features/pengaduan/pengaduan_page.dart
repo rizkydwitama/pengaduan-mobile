@@ -96,6 +96,54 @@ class PengaduanPage extends StatelessWidget {
                 controller.alamat = value?? '';
               },
             ),
+            const SizedBox(height: 16,),
+            Text(
+              'Informasi Judul',
+              style: Theme.of(context).textTheme.bodyLarge!.copyWith(
+                color: Colors.black,
+              ),
+            ),
+            const SizedBox(height: 8,),
+            TextFormFieldWidget(
+              name: 'Informasi Judul',
+              hintText: 'Informasi Judul',
+              enabled: true,
+              onChanged: (String? value) {
+                controller.informasiJudul = value?? '';
+              },
+            ),
+            const SizedBox(height: 16,),
+            Text(
+              'Deskripsi',
+              style: Theme.of(context).textTheme.bodyLarge!.copyWith(
+                color: Colors.black,
+              ),
+            ),
+            const SizedBox(height: 8,),
+            TextFormFieldWidget(
+              name: 'Deskripsi',
+              hintText: 'Deskripsi',
+              enabled: true,
+              onChanged: (String? value) {
+                controller.informasiJudul = value?? '';
+              },
+            ),
+            const SizedBox(height: 16,),
+            Text(
+              'Permasalahan / Aduan',
+              style: Theme.of(context).textTheme.bodyLarge!.copyWith(
+                color: Colors.black,
+              ),
+            ),
+            const SizedBox(height: 8,),
+            TextFormFieldWidget(
+              name: 'Permasalahan / Aduan',
+              hintText: 'Permasalahan / Aduan',
+              enabled: true,
+              onChanged: (String? value) {
+                controller.aduan = value?? '';
+              },
+            ),
             const SizedBox(height: 48,),
             ElevatedButton(
                 style: TextButton.styleFrom(

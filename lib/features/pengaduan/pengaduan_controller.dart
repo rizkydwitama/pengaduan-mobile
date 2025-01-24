@@ -6,4 +6,7 @@ class PengaduanController extends GetxController {
   String nomorHP = '';
   String email = '';
   String alamat = '';
+  String informasiJudul = '';
+  String deskripsi = '';
+  String aduan = '';
 }
