@@ -50,18 +50,18 @@ class PengaduanPage extends StatelessWidget {
             ),
             const SizedBox(height: 16,),
             Text(
-              'No. HP',
+              'Nomor HP',
               style: Theme.of(context).textTheme.bodyLarge!.copyWith(
                 color: Colors.black,
               ),
             ),
             const SizedBox(height: 8,),
             TextFormFieldWidget(
-              name: 'No. HP',
-              hintText: 'No. Hp',
+              name: 'Nomor HP',
+              hintText: 'Nomor Hp',
               enabled: true,
               onChanged: (String? value) {
-                controller.nama = value?? '';
+                controller.nomorHP = value?? '';
               },
             ),
             const SizedBox(height: 16,),
@@ -77,7 +77,7 @@ class PengaduanPage extends StatelessWidget {
               hintText: 'Email',
               enabled: true,
               onChanged: (String? value) {
-                controller.nama = value?? '';
+                controller.email = value?? '';
               },
             ),
             const SizedBox(height: 16,),
@@ -93,7 +93,7 @@ class PengaduanPage extends StatelessWidget {
               hintText: 'Alamat',
               enabled: true,
               onChanged: (String? value) {
-                controller.nama = value?? '';
+                controller.alamat = value?? '';
               },
             ),
             const SizedBox(height: 48,),
